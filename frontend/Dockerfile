@@ -7,4 +7,4 @@ RUN npm install
 RUN npm install -g @quasar/cli
 
 EXPOSE 9000
-CMD ["npx", "quasar", "dev"]
+CMD ["quasar", "dev"]
