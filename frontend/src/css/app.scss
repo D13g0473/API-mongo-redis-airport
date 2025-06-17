@@ -1,0 +1,57 @@
+@import "leaflet.markercluster";
+@import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
+@import 'leaflet.markercluster/dist/MarkerCluster.css';
+@import "leaflet/dist/leaflet.css";
+
+/* Estilizar el contenedor del scroll */
+::-webkit-scrollbar {
+    width: 10px; /* Ancho de la barra */
+    height: 10px; /* Alto de la barra (para scroll horizontal) */
+  }
+  
+  /* Estilizar la pista del scroll (el fondo) */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+    border-radius: 10px;
+  }
+  
+  /* Estilizar el thumb (la parte que se mueve) */
+  ::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border-radius: 10px;
+    border: 2px solid transparent; /* Opcional, para agregar un borde alrededor */
+  }
+  
+  /* Estilizar el thumb cuando está en hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: grey;
+  }
+
+.swal2-container {
+  // position: fixed !important;
+  z-index: 100000000 !important;
+}
+
+html, body, #q-app {
+  height: 100%;
+  overflow: hidden; // Evita scrolls que arruinan Leaflet
+}
+#q-app {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #333;
+}
+#q-app .q-layout {
+  background-color: #f5f5f5; // Color de fondo claro
+}
+#q-app .q-header {
+  background-color: #1976D2; // Color de fondo del encabezado
+  color: white; // Color del texto del encabezado
+}
+#q-app .q-footer {
+  background-color: #1976D2; // Color de fondo del pie de página
+  color: white; // Color del texto del pie de página
+}
+#q-app .q-page {
+  padding: 20px; // Espacio alrededor del contenido de la página
+}
