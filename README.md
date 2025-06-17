@@ -1,7 +1,8 @@
 # API-mongo-redis-airport
 
 # Descripción: 
-La API está diseñada en Python, versión detallada más adelante, y el frontend está diseñado en Quasar Framework de Vue, con la libreria leaflet, para mostrar mapas  Espero sea de su agrado. Cualquier consulta, a disposición.
+La API está diseñada en Python, versión detallada más adelante, y el frontend está diseñado en Quasar Framework de Vue, con la libreria leaflet, para mostrar mapas.
+Espero sea de su agrado. Cualquier consulta, a disposición.
  
 # Version de Python
 
