@@ -9,7 +9,7 @@ COPY frontend/package*.json ./
 RUN npm install
 
 # Copiar el resto del código
-COPY frontend/ .
+COPY . .
 
 # Instalar Quasar CLI
 RUN npm install -g @quasar/cli
