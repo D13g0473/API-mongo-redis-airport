@@ -2,14 +2,13 @@ FROM node:20
 
 WORKDIR /app
 
-# Copiar solo package.json y lock primero para cacheo de dependencias
-COPY frontend/package*.json ./
 
-# Instalar dependencias del Quasar Project
-RUN npm install
 
 # Copiar el resto del código
 COPY . .
+
+# Instalar dependencias del Quasar Project
+RUN npm install
 
 # Instalar Quasar CLI
 RUN npm install -g @quasar/cli
