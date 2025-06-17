@@ -64,7 +64,7 @@ const linksList = [
     to: '/' 
   },
   {
-    title: 'Top 10 pupulares',
+    title: 'Top 10 populares',
     caption: 'Ver top aeropuertos populares',
     icon: 'star',
     to: '/popular' 
